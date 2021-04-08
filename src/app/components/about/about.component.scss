@@ -1,0 +1,51 @@
+.about {
+  background: #ffff;
+  height: 700px;
+  .about-wrapper {
+    .about-wrapper-content {
+      .about-cwrapper-content__title {
+        padding-top: 95px;
+        padding-bottom: 22px;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 5.119999885559082px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .about-cwrapper-content__subtitle {
+        padding-bottom: 28px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.20999999344348907px;
+        text-align: center;
+      }
+      .about-cwrapper-content__follow {
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 2.4000000953674316px;
+        text-align: center;
+      }
+    }
+  }
+  .swiper-container {
+    margin-top: 65px;
+    margin-bottom: 47px;
+    .swiper-wrapper {
+      .swiper-slide {
+      }
+      .swiper-button-prev {
+      }
+      .swiper-button-next {
+      }
+    }
+  }
+}

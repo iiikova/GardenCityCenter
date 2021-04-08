@@ -1,3 +1,7 @@
+# Figma maket
+https://www.figma.com/file/XOZzpSfooAluMl26DFh2RT/Garden-City?node-id=1%3A394
+
+
 # GardenCityCenter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.

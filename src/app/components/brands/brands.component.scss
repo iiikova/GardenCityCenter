@@ -1,0 +1,17 @@
+.brands {
+  background: #7ba4db;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  .brands-wrapper {
+    display: flex;
+    color: #171c8f;
+    overflow: hidden;
+    .brands-wrapper-item {
+      img {
+        height: 20px;
+      }
+      margin-left: 20px;
+    }
+  }
+}

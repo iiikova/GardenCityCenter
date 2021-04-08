@@ -1,0 +1,54 @@
+.community {
+  background: #fff4f0;
+  padding: 100px 45px;
+  display: flex;
+  .image {
+    img {
+      height: 625px;
+      //   width: 675px;
+    }
+  }
+  .content {
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+    .content-wrapper {
+      .content__title {
+        width: 457px;
+
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 5.119999885559082px;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      .content__subtitle {
+        width: 487px;
+        font-family: Roboto;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0.20999999344348907px;
+        text-align: left;
+        margin-bottom: 25px;
+      }
+      .content__button {
+        button {
+          background: #e16ba9;
+          border-radius: 50px;
+          width: 200px;
+          height: 50px;
+          outline: none;
+          border: none;
+          color: white;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
