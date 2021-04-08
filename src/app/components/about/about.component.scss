@@ -42,10 +42,22 @@
     .swiper-wrapper {
       .swiper-slide {
       }
-      .swiper-button-prev {
-      }
-      .swiper-button-next {
-      }
+    }
+    .swiper-button-prev {
+      margin-left: -30px;
+      height: 50px;
+      width: 80px;
+      border-radius: 50px;
+      background-color: #fff;
+      color: black;
+    }
+    .swiper-button-next {
+      margin-right: -30px;
+      height: 50px;
+      width: 80px;
+      border-radius: 50px;
+      background-color: #fff;
+      color: black;
     }
   }
 }

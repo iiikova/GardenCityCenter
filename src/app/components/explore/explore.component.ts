@@ -1,8 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import SwiperCore, { Swiper, Navigation, Pagination } from 'swiper/core';
+import SwiperCore, {
+  Swiper,
+  Navigation,
+  Pagination,
+  Autoplay,
+} from 'swiper/core';
 
 // configure Swiper to use modules
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 @Component({
   selector: 'app-explore',
   templateUrl: './explore.component.html',
@@ -17,11 +22,11 @@ export class ExploreComponent implements OnInit {
       direction: 'horizontal',
       speed: 400,
       loop: true,
+      autoplay: true,
       spaceBetween: 10,
       slidesPerView: 4,
 
-      // centeredSlides: true,
-      // autoHeight: true,
+      centeredSlides: true,
       // centerInsufficientSlides: true,
 
       // Navigation arrows
