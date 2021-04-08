@@ -12,12 +12,14 @@ export class ExploreComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    const swiper = new Swiper('.swiper-container', {
+    const swiper = new Swiper('.swiper-container-2', {
       // Optional parameters
       direction: 'horizontal',
+      speed: 400,
       loop: true,
       spaceBetween: 10,
-      slidesPerView: 3,
+      slidesPerView: 4,
+
       // centeredSlides: true,
       // autoHeight: true,
       // centerInsufficientSlides: true,
